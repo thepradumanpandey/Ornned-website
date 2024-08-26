@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times new roman",sans-serif ;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: url(./image/pexels-brakou-1723637.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background-color: chocolate;
+    
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo_container{
+    
+    margin-left: 4%;
+    font-size: 40px;
+    font-weight: 500;
+}
+.nav_bar{
+
+    display: flex;
+    min-width: 500px;
+    justify-content: space-around;
+    margin-right: 4%;
+    
+}
+.nav_bar a{
+    color: rgb(246, 246, 246);
+    font-weight: 400;
+    text-decoration: none;
+}
+main{
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+.me p,h1{
+    
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    border: 5px solid white;
+}
+footer{
+    position: fixed;
+    background: white;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+}
+footer::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #AFAF86;
+    left: 0;
+    top: 100px;
+}
+footer .content{
+    background:chocolate;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 50px;
+
+}
+.content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+
+}
+.content .top .media-icon{
+    display: flex;
+
+}
+.content .top .media-icon a{
+    height: 40px;
+    width: 40px;
+    background:black;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+
+}
+.top .media-icon a:nth-child(1){
+    background: #426782;
+
+}
+.top .media-icon a:nth-child(1):hover{
+    background: #fff;
+    color: #426782;
+}
+.top .media-icon a:nth-child(2){
+    background: #1da1f2;
+
+}
+.top .media-icon a:nth-child(2):hover{
+    background: #fff;
+    color: #1da1f2;
+}
+.top .media-icon a:nth-child(3){
+    background:#E1306c ;
+
+}
+.top .media-icon a:nth-child(3):hover{
+    background: #fff;
+    color: #E1306c;
+}
+.top .media-icon a:nth-child(4){
+    background: #007785;
+
+}
+.top .media-icon a:nth-child(4):hover{
+    background: #fff;
+    color: #007785;
+}
+.top .media-icon a:nth-child(5){
+    background: #FF0000;
+
+}
+.top .media-icon a:nth-child(5):hover{
+    background: #fff;
+    color: #FF0000;
+}
+footer .content .link-boxes{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+footer .content .link-boxes .box{
+  
+    width: calc(100%/5-10px);
+
+}
+.link-boxes .box .links-name::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+    left: 0;
+    bottom: -2px;
+
+}
+.content .link-boxes .box li{
+    list-style: none;
+    margin:6px 0;
+
+
+}
+.content .link-boxes .box .links-name{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+}
+.content .link-boxes .box li a{
+    font-size: #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+
+}
+.content .link-boxes .box li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+
+}
+.content .link-boxes .input-box{
+    margin-right: 55px;
+
+
+}
+.link-boxes .input-box input{
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid white;
+    background: white;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size:  16px;
+    color: black;
+}
+.link-boxes .input-box,input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+
+
+
+
+
